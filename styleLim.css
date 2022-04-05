@@ -1,0 +1,77 @@
+body {
+    background-image: url('background.jpg');
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Box {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 80%;
+    width: 60%;
+    box-sizing: content-box;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
+}
+
+header {
+    color: lightgreen;
+    text-align: center;
+}
+
+header>img {
+    width: 25%;
+}
+
+header>h1 {
+    font-size: 38px;
+}
+
+nav {
+    text-align: center;
+    background-color: #00dd00;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+main {
+    color: white;
+    font-size: large;
+
+}
+
+h2 {
+    display: inline;
+}
+
+.MonopattinoInfo {
+    line-height: 0.5em;
+}
+
+.stato-carica1 {
+    border-radius: 3px;
+    height: 30px;
+    width: 35%;
+    background-color: orange;
+    margin-bottom: 2em;
+}
+
+.stato-carica2 {
+    border-radius: 3px;
+    height: 30px;
+    width: 55%;
+    background-color: green;
+    margin-bottom: 2em;
+}
+
+.stato-carica3 {
+    border-radius: 3px;
+    height: 30px;
+    width: 15%;
+    background-color: red;
+    margin-bottom: 2em;
+}
